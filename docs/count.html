@@ -1,10 +1,12 @@
+<!--  Displaying No. of Words -->
 <h1>There are {{ count }} words! </h1>
 
+<!-- Form for new Text -->
 <form action="{% url 'home' %}">
 	<input type="submit" value="Enter new Text" />
 </form>
 
-
+<!-- Displaying  -->
 <h2>Entered Text :</h2>
 {{ fulltext }}
 
